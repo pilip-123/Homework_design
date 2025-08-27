@@ -180,12 +180,12 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2px;
+    gap: 10px;
 }
 
 .Image_value img {
-    width: 90%;
-    height: 90px;
+    width: 70%;
+    height: 60px;
 }
 
 .Image_value p {
@@ -814,7 +814,7 @@ footer {
 }
 
 /* ---------- Phone View (600px – 800px) ---------- */
-@media (max-width: 600px) {
+@media (max-width: 600px){
     .content h1 {
         font-size: 25px;
         width: 80%;
@@ -841,6 +841,7 @@ footer {
 
     .Box_v1 {
         width: 90%;
+        height: 28vh;
         margin-right: 40px;
     }
 
@@ -850,7 +851,7 @@ footer {
     }
 
     .Table {
-        margin-top: 125%;
+        margin-top: 155%;
     }
 
     .caption{
@@ -864,7 +865,7 @@ footer {
     table {
         width: 80%;
         padding: 5px 5px;
-        margin-right: 40px;
+        margin-left: 40px;
     }
 
     tr td,
@@ -881,8 +882,8 @@ footer {
         width: 84%;
     }
 
-     #Sports .content_sports {
-        margin-top: 115%;
+    #Sports .content_sports {
+        margin-top: 370%;
        
     }
 
@@ -930,7 +931,7 @@ footer {
     }
 
     #Aerobic .content_aerobic {
-        margin-top: 110%;
+        margin-top: 190%;
     }
 
     .content_aerobic p{
@@ -948,7 +949,7 @@ footer {
     }
 
     #Contact .content_contact{
-        margin-top: 67%;
+        margin-top: 100%;
     }
 
     .content_contact p{
@@ -961,7 +962,7 @@ footer {
     }
 
     .contact-us .owner-contact-info{
-        margin-top: 80%;
+        margin-top: 130%;
         margin-right: 40%;
         
     }
@@ -976,7 +977,7 @@ footer {
     }
 
     #Contact .map-container{
-        margin-top: 70%;
+        margin-top: 110%;
     }
 
     footer{
@@ -986,7 +987,7 @@ footer {
 
 /* tablet_size */
 
-@media(max-width:800px){
+@media (min-width: 601px) and (max-width: 1024px){
     .content h1 {
         font-size: 25px;
         width: 80%;
@@ -997,7 +998,7 @@ footer {
     }
 
     #Home button {
-        width: 20%;
+        width: 15%;
         height: 30px;
     }
 
@@ -1022,183 +1023,7 @@ footer {
     }
 
     .Table {
-        margin-top: 50%;
-    }
-
-    .caption p {
-        width: 90%;
-    }
-
-    table {
-        width: 100%;
-        margin-right: 40px;
-    }
-
-    tr td,
-    tr th {
-        padding: 10px 10px;
-    }
-
-    .main_box {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-    }
-
-    .content_box {
-        width: 100%;
-    }
-
-    .content_sports {
-        margin-top: 78%;
-    }
-
-    .content_sports p {
-        width: 80%;
-    }
-
-    .Activity {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Activity .pic_1 {
-        width: 100%;
-        margin-right: 40px;
-    }
-
-    .pic_1 p {
-        width: 100%;
-        font-size: 12px;
-    }
-
-    .information button {
-        margin-top: 280px;
-        width: 30%;
-    }
-
-    .pic_2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .main_pic_1 img {
-        width: 100%;
-    }
-
-    .Tep_sports {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        gap: 20px;
-    }
-
-    .Tep_sports img{
-        height: 32vh;
-    }
-
-    .Tep_sports .Tep_1 {
-        width: 100%;
-    }
-
-    .main_pic_2 img{
-        width: 100%;
-    }
-
-    .content_aerobic {
-        margin-top: 80%;
-    }
-
-    .content_aerobic p{
-        width: 80%;
-        height: 40px;
-    }
-
-    .video{
-        display: flex;
-        flex-direction: column;
-    }
-
-    video{
-        width: 100%;
-    }
-
-    #Contact .content_contact{
-        margin-top: 50%;
-    }
-
-    .aerobic_1 img{
-        height: 31vh;
-    }
-
-    .content_contact p{
-        width: 80%;
-    }
-
-    .complete{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact-us .owner-contact-info{
         margin-top: 60%;
-        margin-right: 45%;
-        
-    }
-
-    .owner-contact-info p{
-        width: 165%;
-    }
-
-    .form-input{
-        width: 90%;
-        margin-left: 60px;
-    }
-
-    .map-container{
-        margin-top: 50%;
-    }
-
-    footer{
-        width: 100%;
-    }
-}
-
-@media(max-width:1024px){
-    .content h1 {
-        font-size: 25px;
-        width: 80%;
-    }
-
-    .content p {
-        width: 80%;
-    }
-
-    #Home button {
-        width: 10%;
-        height: 30px;
-    }
-
-    .content_value p {
-        width: 80%;
-        margin-right: 40px;
-    }
-
-    .main_value {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Box_v1 {
-        width: 70%;
-        margin-right: 40px;
-    }
-
-    .Image_value img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .Table {
-        margin-top: 56%;
     }
 
     .caption p {
@@ -1229,7 +1054,7 @@ footer {
     }
 
     .content_sports p {
-        width: 70%;
+        width: 80%;
     }
 
     .Activity {
@@ -1238,7 +1063,7 @@ footer {
     }
 
     .Activity .pic_1 {
-        width: 90%;
+        width: 100%;
         margin-right: 40px;
     }
 
@@ -1297,7 +1122,7 @@ footer {
         width: 100%;
     }
 
-    .content_contact{
+    #Contact .content_contact{
         margin-top: 43%;
     }
 
@@ -1314,9 +1139,186 @@ footer {
         flex-direction: column;
     }
 
-    .owner-contact-info{
-        margin-top: 30%;
+    .contact-us .owner-contact-info{
+        margin-top: 40%;
         margin-right: 45%;
+        
+    }
+
+    .owner-contact-info p{
+        width: 105%;
+    }
+
+    .form-input{
+        width: 90%;
+        margin-left: 60px;
+    }
+
+    .map-container{
+        margin-top: 35%;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1025px){
+    .content h1 {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    .content p {
+        width: 80%;
+    }
+
+    #Home button {
+        width: 10%;
+        height: 30px;
+    }
+
+    .content_value p {
+        width: 80%;
+        margin-right: 40px;
+    }
+
+    .main_value {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .Box_v1 {
+        width: 90%;
+        margin-right: 40px;
+    }
+
+    .Image_value img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Table {
+        margin-top: 5px;
+    }
+
+    .caption p {
+        width: 60%;
+    }
+
+    table {
+        width: 100%;
+        margin-right: 40px;
+    }
+
+    tr td,
+    tr th {
+        padding: 10px 10px;
+    }
+
+    .main_box {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .content_box {
+        width: 90%;
+    }
+
+    .content_sports {
+        margin-top: 24%;
+    }
+
+    .content_sports p {
+        width: 70%;
+    }
+
+    .Activity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Activity .pic_1 {
+        width: 90%;
+        margin-right: 40px;
+    }
+
+    .pic_1 p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .information button {
+        margin-top: 280px;
+        width: 30%;
+    }
+
+    .pic_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_pic_1 img {
+        width: 80%;
+    }
+
+    .Tep_sports {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+    }
+
+    .Tep_sports img{
+        height: 32vh;
+    }
+
+    .Tep_sports .Tep_1 {
+        width: 90%;
+        margin-left: 35px;
+    }
+
+    .main_pic_2 img{
+        width: 100%;
+    }
+
+    .content_aerobic {
+        margin-top: 55%;
+    }
+
+    .content_aerobic p{
+        width: 80%;
+        height: 40px;
+    }
+
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+
+    video{
+        width: 100%;
+    }
+
+    .content_contact{
+        margin-top: 30%;
+    }
+
+    .aerobic_1 img{
+        height: 31vh;
+    }
+
+    .content_contact p{
+        width: 80%;
+    }
+
+    .complete{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .owner-contact-info{
+        margin-top: 20%;
+        margin-right: 25%;
         
     }
 
@@ -1330,7 +1332,7 @@ footer {
     }
 
     .map-container{
-        margin-top: 28%;
+        margin-top: 10px;
     }
 
     footer{
