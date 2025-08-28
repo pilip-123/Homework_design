@@ -1163,7 +1163,7 @@ footer {
     }
 }
 
-@media (min-width: 1025px){
+/* @media (min-width: 1025px){
     .content h1 {
         font-size: 25px;
         width: 80%;
@@ -1338,4 +1338,4 @@ footer {
     footer{
         width: 100%;
     }
-}
+} */
